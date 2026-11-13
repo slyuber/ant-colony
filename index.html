@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#05060a" />
+    <title>Ant Colony</title>
+    <link rel="icon" href="data:," />
+    <style>
+      html, body { margin: 0; height: 100%; background: #05060a; overflow: hidden; overscroll-behavior: none; }
+      #view { position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh; display: block; }
+      #fatal { position: fixed; inset: 0; display: none; align-items: center; justify-content: center;
+        margin: 0; padding: 24px; color: #d8dbe6; font: 18px/1.5 system-ui, sans-serif; text-align: center; }
+      #fatal.on { display: flex; }
+    </style>
+  </head>
+  <body>
+    <canvas id="view"></canvas>
+    <div id="ui"></div>
+    <p id="fatal" role="alert"></p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

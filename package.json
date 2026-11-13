@@ -1,0 +1,19 @@
+{
+  "name": "ant-colony",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "probe": "node scripts/probe.mjs"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.74",
+    "playwright-core": "^1.65.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}
